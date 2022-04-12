@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HomePage from './pages/HomePage';
+import ResponsiveAppBar from './components/NavBar';
+import { Routes, Route } from "react-router-dom";
+import EducationPage from './pages/EducationPage';
+import ProExperiencePage from './pages/ProExperiencePage';
+import WritingSamplesPage from './pages/WritingSamplesPage';
+import InterestPage from './pages/InterestPage';
+
+import { Paper } from '@mui/material';
+
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      
+       
+          <ResponsiveAppBar />
+          <Routes>
+            <Route path='/' element={<HomePage />} />
+            <Route path='Education' element={<EducationPage />} />
+            <Route path='Experience' element={<ProExperiencePage />} />
+            <Route path='Writings' element={<WritingSamplesPage />} />
+            <Route path='Interest' element={<InterestPage />} />
+          </Routes>
+  
+
+
     </div>
+
+
+
   );
-}
+};
 
 export default App;
+
