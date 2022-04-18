@@ -43,7 +43,7 @@ function IntroCard() {
                     </Box>
                     <Box bgcolor="whitesmoke" paddingTop={2} display="flex" justifyContent="center">
                         <Typography variant="h6">
-                            oci5@georgetown.edu - (832) 971-1174 - <Link href="https://www.linkedin.com/in/iloani/">LinkIn</Link>
+                            oci5@georgetown.edu - (832) 971-1174 - <Link href="https://www.linkedin.com/in/iloani/">LinkedIn</Link>
                         </Typography>
                     </Box>
 

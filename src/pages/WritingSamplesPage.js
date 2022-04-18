@@ -1,19 +1,22 @@
+// import { Button } from '@mui/material';
+// import { PDFDownloadLink } from '@react-pdf/renderer';
+// import React from 'react';
+// import FirstPDF from './../components/FirstPDF';
 
-import { React } from 'react';
+// function WritingSamplesPage() {
+//   return (
+//     <div>
+//       <PDFDownloadLink document={<FirstPDF />} fileName="Obinna-Iloana-Resume">
+//         {({ loading }) =>
+//           loading ? (
+//             <Button>Loading Document...</Button>
+//           ) : (
+//             <Button>Download</Button>
+//           )
+//         }
+//       </PDFDownloadLink>
+//     </div>
+//   );
+// }
 
-
-
-
-function WritingSamplesPage() {
-
-  return (
-    <div className='samples'>
-      {/* <PDFDownloadLink document={<PDFFile />} fileName="FORM">
-        {({ loading }) => loading ? (<Button>Loading....</Button>) : <Button>Download PDF</Button>}
-
-      </PDFDownloadLink> */}
-    </div>
-  );
-}
-
-export default WritingSamplesPage;
+// export default WritingSamplesPage;
