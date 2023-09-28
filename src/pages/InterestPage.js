@@ -19,13 +19,15 @@ function InterestPage() {
       </Box>
       <Grid item xs={12}>
         <Paper elevation={16} sx={{ padding: 5 }}>
-          <Box marginTop={3} sx={{ display: 'flex' }} className="imgBox">
+          <Box
+            marginTop={3}
+            sx={{ display: 'flex', justifyContent: 'center' }}
+            className="imgBox">
             <img
               height={'60%'}
               width={'60%'}
               src="https://higherlogicdownload.s3.amazonaws.com/SRAINTERNATIONAL/UploadedImages/167e255a-8759-4a2f-92f6-591d6d8f7afb/Catalyst-pictures/Text-body-images/april2021/Picture_2_Travel.jpeg"
               alt=""></img>
-            <ImageCollage />
           </Box>
           <Box>
             <Typography variant="h6" component="h4" marginTop={3}>
